@@ -190,3 +190,81 @@ nav{
 .section4-div h2,button,p, img{
     margin: 10px 10px ;
 }
+
+/* Section 5 design */
+
+.section5 h1{
+    font-size: 97px;
+    /* margin: 0; */
+}
+.form-title{
+    font-size: 18px;
+    margin: 8px 8px;
+    text-align: left;
+}
+.section5{
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.inputbox{
+    background-color:transparent;
+    padding: 40px;
+    border-radius: 20px;
+    width: 500px;
+    align-items: center;
+}
+.inputbox input , textarea{
+    width: 100%;
+    height: 50px;
+    padding: 14px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    
+    
+}
+
+.inputbox .btn-primary{
+    width: 100%;
+    padding: 14px;
+}
+.inputbox .textbox{
+    height: 100px;
+}
+
+/* Footer design */
+
+footer{
+    text-align: center;
+    padding: 80px 150px;
+    background-color: white;
+}
+.footertext p{
+    text-align: center;
+    color: #8987A1;
+}
+.page-link{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 15px 0;
+}
+.page-link a{
+    text-decoration: none;
+    color:#8987A1 ;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #3a35cc;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(78, 71, 255, 0.2);
+}
