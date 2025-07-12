@@ -12,6 +12,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+body{
+    background-color: #4d47ff07;
+}
 /* Button design */
 .btn-primary{
     color: #FFFFFF;
@@ -68,6 +71,7 @@ nav{
     font-size: 42px;
     font-weight: bold ;
     color: black;
+    
 }
 .title-p{
     font-weight: 200;
@@ -150,7 +154,39 @@ nav{
 .user-footer{
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 .user-footer img{
     border-radius: 50px;
+}
+/* Section 4 styles */
+
+.section4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+    /* padding: 20px 50px; */
+}
+.section4-div{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.section4-img{
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    height: 50%;
+    border-radius: 40px;
+}
+.section4-div h2,button,p, img{
+    margin: 10px 10px ;
 }
