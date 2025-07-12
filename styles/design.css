@@ -116,3 +116,41 @@ nav{
     align-items: center;
 
 }
+
+/* Section3 styles */
+.section3{
+    padding: 60px 100px;
+
+}
+.section3  h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.users-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.user1{
+    background-color: rgba(255, 255, 255, 0.5) ;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: left;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px rgba(168, 166, 166, 0.124);
+}
+
+.star i{
+    color: #FFB805 ;
+    font-size: 18px;
+}
+.user-footer{
+    display: flex;
+    gap: 10px;
+}
+.user-footer img{
+    border-radius: 50px;
+}
