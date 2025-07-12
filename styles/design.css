@@ -28,9 +28,15 @@
 .nav-title{
     color: #4E47FF;
     /* font-weight: 3000000; */
-    font-size: 36px;
-    font-weight: bolder;
+    font-size: 46px;
+    font-weight: 800;
 
+}
+.nav-title-2{
+    color: #4E47FF;
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 nav{
     display: flex;
@@ -82,4 +88,31 @@ nav{
 }
 .section1-img{
     border-radius: 40px;
+}
+
+/* Section2 styles */
+.section2{
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 30px  ;
+    margin: 30px 150px;
+    border-radius: 15px;
+}
+.section2 p{
+    color: black;
+    opacity: 50%;
+    margin: 0;
+    
+} 
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
